@@ -243,8 +243,8 @@ button {
 
 /* bottom section */
 .bottom {
-  border: 1px solid red;
-  width: 60%;
+  /* border: 1px solid red; */
+  width: 57%;
   margin-left: 20%;
   margin-bottom: 3%;
 }
@@ -257,13 +257,15 @@ footer {
 
 footer nav {
   width: 50%;
-  padding: 3% 2%;
+  padding: 2.5% 3%;
   display: flex;
   justify-content: space-between;
+  font-size: 14px;
 }
 
 footer nav a {
   padding-left: 0;
+  padding-right: 15%;
   color: white;
   text-decoration: none;
 }
