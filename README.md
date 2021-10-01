@@ -34,13 +34,27 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+If we break down both words, HTML is the fundamental building block of every web page or application and Semantic is the definition of that code so when we put them together semantic HTML it is HTMl that gives meaning to our markup. Some examples of semantic HTML would be h1, p or section, NONsemantic HTML would be divs, or spans.
+
 2. Name two big differences between `display: block;` and `display: inline;`.
+
+One of the differences is that display block fills the entire line meanwhile display inline only fills up as much as it needs to. Another difference is that display block breaks the line and continues, we can also give it a width and height however, with display inline we cannot give it a width or height.
 
 3. What are the 4 areas of the box model?
 
+The 4 areas of the box model are margin, border, padding, content:
+Content is the text, this is the h1, h2, p.
+Padding is the space surrounding the content, we can specify how much space we want around the content by using padding- top, right, bottom or left.
+Border is what holds the padding and content, we think of this as a box that keeps everything together.
+Margin is any space outside of the box, this is used to move the box top, right, bottom, left.
+
 4. While using flexbox, what axis does the following property work on: `align-items: center`?
 
+While using flexbox, the align-items: center works on the cross axis, this will pack the items and center boxes.
+
 5. Explain why git is valuable to a team of developers.
+
+Git is valuable to a team of developers because it is able to let the others know where you are in your code. You are able to push the changes that you do to the code and this informs the other web developers who are collaborated in the project what you have completed, with that being said it is best practice to push those changes almost every 20 minutes, this helps yourself too in case you have to go back and change your code for any reason.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section _will_ prevent you from passing this challenge.
 
